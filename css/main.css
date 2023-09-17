@@ -111,8 +111,15 @@ a {
   color: #eeefda;
 }
 
+nav #contact-button {
+  background-color: #cac691;
+  color: #152a3e;
+  border-radius: 30px;
+  padding: 10px 10px;
+}
+
 h1 {
-  font-size: 2.1em;
+  font-size: 2em;
   line-height: 1.5;
   font-family: 'Lexend Tera', sans-serif;
   width: 100%;
@@ -186,6 +193,7 @@ header, #projects, #about, #skills, footer {
 
 #projects p, #about p {
   text-align: left;
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5, p {
@@ -326,15 +334,87 @@ article h4 {
 .portfolio-sample figure img {
   border-radius: 20px;
   max-height: 200px;
+  transition: transform .5s;
 }
 
+.portfolio-sample figure img:hover {
+  transform: scale(1.1);
+}
 
+.link-button {
+  border-radius: 40px;
+  padding: 1em 2em;
+}
+
+.flex-fill {
+  flex-grow: 1;
+}
+
+.link-button:hover {
+  background-color: #e7e5cb;
+  color: #152a3e;
+}
+
+#about {
+  width: 100%;
+}
 
 .avatar img {
   border-radius: 20px;
+  width: 90%;
 }
 
 /* ---------------------------------------Footer--------------------------------------- */
+
+footer .contact-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+footer h5 {
+  margin-bottom: 40px;
+}
+
+footer .contact-info {
+  width: 60%;
+}
+
+.contact-element {
+  background-color: #cac691;
+  color: #152a3e;
+  border-radius: 30px;
+  padding: 10px 10px;
+}
+
+footer .social-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer ul {
+  width: 100%;
+}
+
+footer .social-icons li {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons li i {
+  font-size: 2em;
+
+}
 
 
 
