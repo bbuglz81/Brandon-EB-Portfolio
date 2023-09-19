@@ -211,7 +211,7 @@ nav {
 
 article {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 #about {
@@ -226,7 +226,11 @@ footer {
 
 header h1 {
   padding-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 30px;
 }
 
 h3 {
@@ -242,7 +246,7 @@ h4 {
 }
 
 .link-button {
-  margin: 40px 0 60px 0;
+  margin: 40px 0 40px 0;
   background-color: #cac691;
 }
 
@@ -359,9 +363,26 @@ article h4 {
   width: 100%;
 }
 
+#skills {
+  margin-bottom: 40px;
+}
+
+#skills h4 {
+  padding-top: 20px;
+}
+
+#about {
+  margin-top: 30px;
+}
+
 .avatar img {
+  margin-bottom: 20px;
   border-radius: 20px;
   width: 90%;
+}
+
+#about h3 {
+  margin-bottom: 60px;
 }
 
 /* ---------------------------------------Footer--------------------------------------- */
@@ -373,8 +394,12 @@ footer .contact-wrapper {
   align-items: flex-start;
 }
 
+footer h3 {
+  margin-bottom: 60px;
+}
+
 footer h5 {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 footer .contact-info {
@@ -413,10 +438,7 @@ footer .social-icons li {
 
 footer .social-icons li i {
   font-size: 2em;
-
 }
-
-
 
 /* ==========================================================================
    Helper classes
@@ -506,10 +528,23 @@ footer .social-icons li i {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+/* --------------------------------------Tablet--------------------------------------- */
+@media only screen and (min-width: 768px) {
+
+  .portfolio-sample figure img {
+    max-height: 500px;
+  }
+
 }
 
+/* --------------------------------------Desktop-------------------------------------- */
+@media only screen and (min-width: 1200px) {
+
+
+
+}
+
+/* ---------------------------------------Print--------------------------------------- */
 @media print,
 (-webkit-min-device-pixel-ratio: 1.25),
 (min-resolution: 1.25dppx),
