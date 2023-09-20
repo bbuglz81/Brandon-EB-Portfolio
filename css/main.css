@@ -115,7 +115,7 @@ nav #contact-button {
   background-color: #cac691;
   color: #152a3e;
   border-radius: 30px;
-  padding: 10px 10px;
+  padding: 5px 5px;
 }
 
 h1 {
@@ -427,6 +427,7 @@ footer .contact-info {
   color: #152a3e;
   border-radius: 30px;
   padding: 5px 5px;
+  margin: 10px 5px;
 }
 
 footer h4 {
@@ -574,7 +575,7 @@ footer .social-icons li i {
   }
 
   h5 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   p {
@@ -678,20 +679,22 @@ footer .social-icons li i {
 
   /* ----------------------Skills----------------------- */
 
-  .skills-wrapper, .tools-wrapper {
+  .skills-wrapper,
+  .tools-wrapper {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     flex-flow: row wrap;
   }
 
-  .skill, .tool {
+  .skill,
+  .tool {
     width: 45%;
   }
 
   /* ----------------------Footer----------------------- */
 
-  .contact-wrapper {
+  footer .contact-wrapper {
     display: flex;
     justify-content: space-between;
   }
@@ -708,8 +711,13 @@ footer .social-icons li i {
     width: 100%;
   }
 
+  .social-links {
+    border-left: #cac691 solid 1px;
+    border-right: #cac691 solid 1px;
+  }
+
   footer .social-icons {
-    width: 12.5em;
+    width: 10em;
   }
 
   footer .social-icons li i {
@@ -717,10 +725,35 @@ footer .social-icons li i {
   }
 }
 
+/* --------------------------------------Tablet(Landscape)-------------------------------------- */
+@media only screen and (min-width: 1024px) {
+  .content-wrapper {
+    max-width: 900px;
+  }
+
+
+  #about h3 {
+    font-size: 2.4rem;
+  }
+
+  .contact-element {
+    margin: 10px 40px;
+  }
+
+}
+
 /* --------------------------------------Desktop-------------------------------------- */
 @media only screen and (min-width: 1200px) {
 
+  .content-wrapper {
+    max-width: 1450px;
+  }
 
+  /* ----------------------Font----------------------- */
+
+  h1 {
+    font-size: 4rem;
+  }
 
 }
 
