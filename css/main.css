@@ -286,6 +286,12 @@ figure {
   background-color: #cac691;
   margin: 20px 0;
   padding: 15px 0;
+  transition: transform .5s;
+}
+
+.skills-wrapper p:hover,
+.tools-wrapper p:hover {
+  transform: scale(1.1);
 }
 
 .contact-wrapper {
@@ -373,7 +379,7 @@ article h4 {
 }
 
 .link-button:hover {
-  background-color: #e7e5cb;
+  background-color: #b3d4fc;
 }
 
 #about {
@@ -648,12 +654,6 @@ footer .social-icons li i {
 
   /* ----------------------Header----------------------- */
 
-  header .content-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-  }
-
   header nav {
     display: flex;
     justify-content: center;
@@ -851,6 +851,8 @@ footer .social-icons li i {
   /* ----------------------Header----------------------- */
 
   header .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
     justify-content: flex-end;
   }
 
@@ -863,11 +865,13 @@ footer .social-icons li i {
     padding: 10px 10px;
   }
 
-  nav ul li a, nav #contact-button {
+  nav ul li a,
+  nav #contact-button {
     padding: 10px 10px;
   }
 
-  nav ul li a:hover, nav #contact-button:hover {
+  nav ul li a:hover,
+  nav #contact-button:hover {
     background-color: #b4c7d9;
     border-radius: 30px;
     color: #152a3e;
@@ -877,41 +881,41 @@ footer .social-icons li i {
     width: 75%;
   }
 
-/* ----------------------Portfolio----------------------- */
+  /* ----------------------Portfolio----------------------- */
 
-.portfolio-sample {
-  width: 30%;
-}
+  .portfolio-sample {
+    width: 30%;
+  }
 
-/* ----------------------About----------------------- */
+  /* ----------------------About----------------------- */
 
-.about-wrapper {
-  display: flex;
-  justify-content: space-between;
-  width: 95%;
-}
+  .about-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+  }
 
-#about figure {
-  display: flex;
-  align-items: center;
-  width: 33%;
-  margin-top: 0;
-}
+  #about figure {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    margin-top: 0;
+  }
 
-.avatar {
-  padding: 0;
-  margin: 0;
-}
+  .avatar {
+    padding: 0;
+    margin: 0;
+  }
 
-.about-me {
-  width: 58%;
-}
+  .about-me {
+    width: 58%;
+  }
 
-/* ----------------------Footer----------------------- */
+  /* ----------------------Footer----------------------- */
 
-footer .content-wrapper {
-  width: 80%;
-}
+  footer .content-wrapper {
+    width: 80%;
+  }
 
 }
 
