@@ -738,6 +738,10 @@ footer .social-icons li i {
     width: 100%;
   }
 
+  footer p {
+    font-size: .9rem;
+  }
+
   .social-links {
     border-left: #cac691 solid 1px;
     border-right: #cac691 solid 1px;
